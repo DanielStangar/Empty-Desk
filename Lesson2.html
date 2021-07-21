@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course</title>
+  <link rel="stylesheet" href="courseStyle.css">
+
+
+
+</head>
+
+<body>
+  <nav class="navbar">
+    <div>
+      <a href="#"> <img class='primary-icon' src="http://www.emptydesk.co.uk/wp-content/themes/emptydesk/img/logo.png"> </a>
+    </div>
+    <ul class='nav-list'>
+      <li class='list-item'><a href="index.html">Home</a></li>
+      <li class='list-item'><a href="about.html">About</a></li>
+      <li class='list-item'><a href="courseIntro.html">Course</a></li>
+      <li class='list-item'><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <div class="row">
+      <div class="column side">
+        <div class='instructions'>
+          <h4>LESSON CONTROLS</h4><br></br>
+
+          <p>The buttons below allow you to display any part of the lesson you need. Feel free to go back and foth, and study
+          texts several times if you want. The more precise will be your understanding, the higher will be your benefits from
+        the course.</p><br></br>
+
+           <h4><button id = 'buttonPrinciple' class='toggleBut' onclick='showPrinciple()'>PRINCIPLE</button></h4><br></br>
+            <h4><button id='buttonExercise' class='toggleBut'onclick='showExercise()'>EXERCISE</button></h4></button><br></br>
+            <h4><button id='buttonTakeaway' class='toggleBut' onclick='showTakeaway()'>EVALUATION</button> </h4>
+
+        </div><!--instructions-->
+
+
+
+      </div>
+  <div class="column middle">
+     
+
+      <div id='central'>
+
+        <div id='principle' class='texts'>
+
+          <h4><button id='buttonPrinciple2' class='toggleBut'onclick='show()'>&larr;</button>
+          <button id='buttonExercise2' class='toggleBut'onclick='showExercise()'>&rarr;</button></h4><br>
+
+          
+              <h4>LESSON 2 </h4><br> 
+              
+          <p> Actual reason for exhaustion from administrative or intellectual work is quite simple. 
+            You have failed to fulfill one of your goals or several of them. Not big goals or projects. 
+            Failing to fullfil small everyday task can make you so tired that you tend to drowse in your chair. 
+            The computer got mysteriously stuck and you could not answer an email. You wanted to called
+            your supplier, but the line was busy or you weren't able to find one silly document. Such things 
+            or just one of them can make you real tired.
+            
+            Do you want to use this piece of knowledge to your advantage?</p><br>
+            <h4><button id='buttonExercise' class='toggleBut'onclick='showExercise()'>EXERCISE</button></h4></button><br></br>
+          </div><!--lesson-->
+
+          <div id='exercise' class='texts'>
+            <h4><button id='buttonPrinciple2' class='toggleBut'onclick='showPrinciple()'>&larr;</button>
+          <button id='buttonExercise2' class='toggleBut'onclick='showTakeaway()'>&rarr;</button></h4><br>
+
+            <h4>EXERCISE 2 </h4><br>
+              <p>Do you remember some day when you felt drained or exhausted from your office work? 
+                What are the goals you tried to achieve and could not? Write down whatever you recall, 
+                it can be one or several. As you do this exercise you may feel sudden revitalisation, lightness or
+                return of energy. </p><br>
+                <h4><button id='buttonTakeaway' class='toggleBut' onclick='showTakeaway()'>EVALUATION</button> </h4>
+
+          </div><!--exercise-->
+
+          <div id='takeaway'class='texts'>
+            <h4><button id='buttonPrinciple2' class='toggleBut'onclick='showExercise()'>&larr;</button>
+          <button id='buttonExercise2' class='toggleBut'onclick='show()'>&rarr;</button></h4><br>
+
+            <h4>YOUR EVALUATION</h4><br>
+              <p>Now write down what actually happened during your exercise and whether it 
+                made you realize something useful. Use the space below and after presing the submit
+                you will be sent to the next lesson. </p>
+              <br>
+              <form action="">
+                  <lable>Your actions and their results</lable><br>
+                  <textarea rows='8' cols="32"></textarea><br>
+                  <input type="submit" value="Submit" class='toggleBut' id='submitButton'>
+              </form>
+
+          </div><!-- conclusion-->
+
+      </div><!--texts-->
+
+  </div><!--column middle-->
+
+  <div class="column side">
+
+    <div class='content'>
+        <h4>COURSE CONTENT</h4><br><br>
+
+        <h4><a href="Lesson1.html" class="lessonBut">Lesson 1</a></h4><br>
+        <h4><a href="Lesson2.html" class="lessonBut">Lesson 2</a></h4><br>
+       <h4> <a href="?" class="lessonBut">Lesson 3</a></h4><br>
+       <h4> <a href="" class="lessonBut">Lesson 4</a></h4><br>
+       <h4> <a href="" class="lessonBut">Lesson 5</a></h4><br>
+       <h4> <a href="" class="lessonBut">Lesson 6</a></h4><br>
+       <h4> <a href="" class="lessonBut">Lesson 7</a></h4><br>
+       <h4> <a href="" class="lessonBut">Lesson 8</a></h4><br>
+       <h4> <a href="" class="lessonBut">Lesson 9</a></h4><br>
+       <h4> <a href="" class="lessonBut">Lesson 10</a></h4>
+      </div><!--CONTENT-->
+
+
+        </div>
+</div><!--row-->
+
+
+
+
+  </main>
+
+
+
+
+  <script src='style.js'></script>
+
+  </body>
+  </html>

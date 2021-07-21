@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course</title>
+  <link rel="stylesheet" href="courseStyle.css">
+  
+
+
+</head>
+
+<body>
+  <nav class="navbar">
+    <div>
+      <a href="#"> <img class='primary-icon' src="http://www.emptydesk.co.uk/wp-content/themes/emptydesk/img/logo.png"> </a>
+    </div>
+    <ul class='nav-list'>
+      <li class='list-item'><a href="index.html">Home</a></li>
+      <li class='list-item'><a href="about.html">About</a></li>
+      <li class='list-item'><a href="courseIntro.html">Course</a></li>
+      <li class='list-item'><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <div class="row">
+      <div class="column side">
+        <div class='instructions'>
+          <h4>LESSON CONTROLS</h4><br></br>
+
+          <p>The buttons below allow you to display any part of the lesson you need. Feel free to go back and foth, and study
+          texts several times if you want. The more precise will be your understanding, the higher will be your benefits from
+        the course.</p><br></br>
+
+           <h4><button id = 'buttonPrinciple' class='toggleBut' onclick='showPrinciple()'>PRINCIPLE</button></h4><br></br>
+            <h4><button id='buttonExercise' class='toggleBut'onclick='showExercise()'>EXERCISE</button></h4></button><br></br>
+            <h4><button id='buttonTakeaway' class='toggleBut' onclick='showTakeaway()'>EVALUATION</button> </h4>
+
+        </div><!--instructions-->
+
+
+
+      </div>
+  <div class="column middle">
+
+      <div id='central'>
+
+        <div id='introduction' class='texts' onload='intro()'>
+          <h4>STUDY INSTRUCTIONS</h4><br>
+            <p>Each lesson consist of three parts: principle, exercise and evaluation.
+              Those are displayed by clicking on the corresponding buttons.
+              The principle explains you
+              the background knowledge so that you understand why you do the exercise.
+              The exercise itself is easy and should not take longer than
+            ten minutes, but is the most important part of the lesson, so please, don't skip it.
+            Doing the exercise is also the implementation of EMPTY DESK administrative system into your office.
+            The evaluation serves you to see for yourself whether you have achieved something useful
+             and helps you remember the studied information better.<br><br> Now, please, press the button below
+        so you can start.</p><br><br>
+            <h4><a href="Lesson1.html" class="toggleBut">LESSON ONE</a></h4><br>
+
+        </div>
+        </div>
+
+
+  </div><!--column middle-->
+
+  <div class="column side">
+
+    <div class='content'>
+        <h4>COURSE CONTENT</h4><br><br>
+
+        <h4><a href="Lesson1.html" class="lessonBut">Lesson 1</a></h4><br>
+        <h4><a href="Lesson2.html" class="lessonBut">Lesson 2</a></h4><br>
+       <h4> <a href="?" class="lessonBut">Lesson 3</a></h4><br>
+       <h4> <a href="" class="lessonBut">Lesson 4</a></h4><br>
+       <h4> <a href="" class="lessonBut">Lesson 5</a></h4><br>
+       <h4> <a href="" class="lessonBut">Lesson 6</a></h4><br>
+       <h4> <a href="" class="lessonBut">Lesson 7</a></h4><br>
+       <h4> <a href="" class="lessonBut">Lesson 8</a></h4><br>
+       <h4> <a href="" class="lessonBut">Lesson 9</a></h4><br>
+       <h4> <a href="" class="lessonBut">Lesson 10</a></h4>
+      </div><!--CONTENT-->
+
+
+        </div>
+</div><!--row-->
+
+
+
+
+  </main>
+
+
+
+
+  <script src='style.js'></script>
+
+  </body>
+  </html>

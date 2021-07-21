@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course</title>
+  <link rel="stylesheet" href="courseStyle.css">
+  
+
+</head>
+
+<body>
+  <nav class="navbar">
+    <div>
+      <a href="#"> <img class='primary-icon' src="http://www.emptydesk.co.uk/wp-content/themes/emptydesk/img/logo.png"> </a>
+    </div>
+    <ul class='nav-list'>
+      <li class='list-item'><a href="index.html">Home</a></li>
+      <li class='list-item'><a href="about.html">About</a></li>
+      <li class='list-item'><a href="courseIntro.html">Course</a></li>
+      <li class='list-item'><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <div class="row">
+      <div class="column side">
+        <div class='instructions'>
+          <h4>LESSON CONTROLS</h4><br></br>
+
+          <p>The buttons below allow you to display any part of the lesson you need. Feel free to go back and foth, and study
+          texts several times if you want. The more precise will be your understanding, the higher will be your benefits from
+        the course.</p><br></br>
+
+           <h4><button id = 'buttonPrinciple' class='toggleBut' onclick='showPrinciple()'>PRINCIPLE</button></h4><br></br>
+            <h4><button id='buttonExercise' class='toggleBut'onclick='showExercise()'>EXERCISE</button></h4></button><br></br>
+            <h4><button id='buttonTakeaway' class='toggleBut' onclick='showTakeaway()'>EVALUATION</button> </h4>
+
+        </div><!--instructions-->
+
+
+
+      </div>
+  <div class="column middle">
+
+      <div id='central'>
+
+        <div id='principle' class='texts'>
+
+          <h4><button id='buttonPrinciple2' class='toggleBut'onclick='show()'>&larr;</button>
+          <button id='buttonExercise2' class='toggleBut'onclick='showExercise()'>&rarr;</button></h4><br>
+
+              <h4>LESSON 1</h4><br>
+
+          <p> Anxiety is created by doubts. If you feel unable to decide about something,
+              it will make you think about the matter without end. Because we often cannot push
+              it out of our mind, it can become quite uncomfortable. Indecision or doubts happen
+              when you have two possible decisions, two possible directions and both of them seemingly of
+              equal weigh or importance. You cannot make a choice, say the clear yes or no,
+              or conclude which action is the best one to take. Those situations are cause of your worry
+              and apprehenshion.
+            Do you want to use this piece of knowledge to your advantage?</p><br>
+            <h4><button id='buttonExercise' class='toggleBut'onclick='showExercise()'>EXERCISE</button></h4></button><br></br>
+          </div><!--lesson-->
+
+          <div id='exercise' class='texts'>
+
+            <h4><button id='buttonPrinciple2' class='toggleBut'onclick='showPrinciple()'>&larr;</button>
+          <button id='buttonExercise2' class='toggleBut'onclick='showTakeaway()'>&rarr;</button></h4><br>
+
+            <h4>EXERCISE 1 </h4><br>
+
+              <p>Your task now is simple and shouldn't take more than 10 mintes. Look at your doubts or indecisions you are
+                experiencincg right now in present days and write them downs as a list of items.
+                Then try to establish and write down between which two or more ideas you are
+                trying to decide. Be as sincere as possible, you don't need to tell anybody.
+                Then go through the list again and for each doubt try to make a conclusive decision.
+                If you don't know which could be the correct choice, go for the one that will cause
+                less damage or less troubles.</p><br>
+                <h4><button id='buttonTakeaway' class='toggleBut' onclick='showTakeaway()'>EVALUATION</button> </h4>
+
+          </div><!--exercise-->
+
+          <div id='takeaway'class='texts'>
+
+            <h4><button id='buttonPrinciple2' class='toggleBut'onclick='showExercise()'>&larr;</button>
+          <button id='buttonExercise2' class='toggleBut'onclick='show()'>&rarr;</button></h4><br>
+
+            <h4>YOUR EVALUATION</h4><br>
+              <p>If you did the exercise, you should experience improvement in your mood.
+              Removing doubts or indecisions often makes people feel subjectively stronger, less
+            apprehansive, more confident, lighter, and so on. Now please use the space below, write down
+          what you did and how your inner feelings or attitudes changed or stayed unchaged. Mere feeling of
+        satisfaction is also valid achievement.</p>
+              <br>
+              <form action="Lesson2.html">
+                  <lable>Your actions and their results</lable><br>
+                  <textarea rows='8' cols="32"></textarea><br>
+                  <input type="submit" value="Submit" class='toggleBut' id='submitButton'>
+              </form>
+
+          </div><!-- conclusion-->
+
+      </div><!--texts-->
+
+  </div><!--column middle-->
+
+  <div class="column side">
+
+    <div class='content'>
+        <h4>COURSE CONTENT</h4><br><br>
+
+        <h4><a href="Lesson1.html" class="lessonBut">Lesson 1</a></h4><br>
+        <h4><a href="Lesson2.html" class="lessonBut">Lesson 2</a></h4><br>
+       <h4> <a href="?" class="lessonBut">Lesson 3</a></h4><br>
+       <h4> <a href="" class="lessonBut">Lesson 4</a></h4><br>
+       <h4> <a href="" class="lessonBut">Lesson 5</a></h4><br>
+       <h4> <a href="" class="lessonBut">Lesson 6</a></h4><br>
+       <h4> <a href="" class="lessonBut">Lesson 7</a></h4><br>
+       <h4> <a href="" class="lessonBut">Lesson 8</a></h4><br>
+       <h4> <a href="" class="lessonBut">Lesson 9</a></h4><br>
+       <h4> <a href="" class="lessonBut">Lesson 10</a></h4>
+      </div><!--CONTENT-->
+
+
+        </div>
+</div><!--row-->
+
+
+
+
+  </main>
+
+
+
+
+  <script src='style.js'></script>
+
+  </body>
+  </html>
